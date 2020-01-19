@@ -1,3 +1,34 @@
+##Video Link
+https://youtu.be/FIxML7s8pFQ
+
+## Inspiration
+Ever been to a place abroad which you thought was pretty safe and had the unfortunate experience of being mugged or assaulted? When people travel overseas to places they have never been to before, they are totally unaware of the prevalent crime in the locality they are gonna live in, thus making them vulnerable victims. 
+With our application, we want to do something great for our society by making people more aware about the safety concerns of places they have never visited earlier.
+ 
+## What it does
+The app tells the user about the crime rates and whether the crime in that particular area is "higher" than the average index of crime stats. It also lets the user know about the most recurring felony reported to the police, thus forewarning him/her about any precautions to take beforehand.
+
+## How we built it
+The layout of our application is pretty straightforward. The application consists of a good mix of React.js, Bootstrap, and FBI Crime Stats API. We extract information through the said API based on the response (name of the state), which is the crime rate for all the Police divisions in the given state. Using this information, we calculate an approximate average number of crimes committed yearly in the chosen state. The most common crime is also retrieved in a similar manner. For calculating the crime rate w.r.t. other states, we have an extensive comparison of crime rates for each state in the background. This is the gist of how we built our application.
+
+## Challenges we ran into
+Finding appropriate and clean data in order to provide us proper crime statistics turned out to be quite tedious. Also, we were extremely excited to learn something new as we firmly believe that Hackathons are also about the "process", i.e. the learning involved in building our hack. Keeping this in mind we decided to take up Flutter in order to build our application. Although we learned a lot, we were unable to align our learnings with our use case forcing us to change our development framework to React.js, and learning about it from scratch as well.
+
+## Accomplishments that we're proud of
+We are extremely proud of being able to help the society with our tech skills. We hope that we'll be able to help people stay safe and secure far from home a foreign country. It is really important to increase awareness among people in general about prevalent crimes in an area.
+
+## What we learned
+We learned to develop a web app majorly through React.js in very limited time and also got the opportunity to experiment with an upcoming cross-platform framework like Flutter.
+
+## What's next for CrimeAware
+In the next phase we plan on including support for more states and cities all across the world. We also plan on implementing this in the form of a mobile application and including functionalities such as location sharing ,SOS support and shortest "crime-safe" distance between two places.
+
+Be Vigilant with CrimeAware!!!!
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
